@@ -1,0 +1,177 @@
+.product-hero-anim {
+  background-color: #fff;
+}
+.product-hero-anim__section {
+  position: relative;
+  top: inherit !important;
+  overflow: hidden;
+  --display-fade-in: 0;
+  --text-fade-in: 0;
+  --items-img-b: -300px;
+  --items-img-c: -550px;
+}
+.product-hero-anim__section.display .product-hero-anim__content-holder {
+  display: flex;
+  height: 100%;
+}
+.product-hero-anim__section.display .product-hero-anim__content {
+  width: 100%;
+  vertical-align: middle;
+}
+.product-hero-anim__section.intro .product-hero-anim__content-holder {
+  margin-top: 130px;
+}
+.product-hero-anim__section.intro .product-hero-anim__animated-img {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 100%;
+  height: 1080px;
+  z-index: 1;
+}
+.product-hero-anim__section.outro .product-hero-anim__content-holder {
+  margin-top: 130px;
+}
+.product-hero-anim__section.outro .product-hero-anim__animated-img {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  bottom: 15.07px;
+  left: 50%;
+}
+.product-hero-anim__section.xray .product-hero-anim__content-holder {
+  height: 100%;
+  padding-top: 130px;
+}
+.product-hero-anim__section.xray .product-hero-anim__content {
+  position: relative;
+  height: 100%;
+}
+.product-hero-anim__section.xray .product-hero-anim__animated-img {
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product-hero-anim__section.xray .product-hero-anim__hotspot-icon {
+  position: absolute;
+  z-index: 2;
+  transition: all 0.8s ease-in-out;
+}
+.product-hero-anim__section.xray .product-hero-anim__hotspot-icon--a {
+  top: 46%;
+  left: 41%;
+}
+.product-hero-anim__section.xray .product-hero-anim__hotspot-icon--b {
+  top: 42%;
+  left: 57%;
+}
+.product-hero-anim__section.xray .product-hero-anim__hotspot-icon--c {
+  top: 43%;
+  left: 36%;
+}
+.product-hero-anim__section.xray .product-hero-anim__item-hotspot {
+  position: absolute;
+  z-index: 2;
+  left: 256px;
+  bottom: 20%;
+  width: 380px;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+}
+.product-hero-anim__section.items .product-hero-anim__content-holder {
+  margin-top: 130px;
+}
+.product-hero-anim__section.items .product-hero-anim__text-holder {
+  padding-bottom: 41.94px;
+}
+.product-hero-anim__section.items .product-hero-anim__items-img-holder {
+  margin-top: 128px;
+}
+.product-hero-anim__bg-img {
+  position: absolute;
+  top: 0;
+}
+.product-hero-anim__bg-img--intro {
+  left: 0;
+}
+.product-hero-anim__bg-img--outro {
+  right: 0;
+}
+.product-hero-anim__container {
+  height: 100%;
+}
+.product-hero-anim__content {
+  margin: auto;
+}
+.product-hero-anim__content--xray {
+  padding-top: 0;
+}
+.product-hero-anim__item-lists {
+  overflow: hidden;
+}
+.product-hero-anim__item-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.product-hero-anim__text-container {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+}
+.product-hero-anim__text-holder {
+  margin-left: 256px;
+}
+.product-hero-anim__text-holder--display {
+  opacity: var(--text-fade-in);
+}
+.product-hero-anim__top-label {
+  margin-block-end: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.product-hero-anim__title {
+  margin-bottom: 0;
+}
+.product-hero-anim__desc {
+  margin-bottom: 0;
+}
+.product-hero-anim__title-heading {
+  margin: 0;
+  text-align: center;
+}
+.product-hero-anim__title-subheading {
+  margin: 0;
+  text-align: left;
+}
+.product-hero-anim__btn {
+  margin-block-start: 32px;
+}
+.product-hero-anim__btn .product-hero-anim__btn-icon.bif {
+  margin-right: 0;
+}
+.product-hero-anim__display-img-holder {
+  text-align: center;
+}
+.product-hero-anim__display-img {
+  width: 100%;
+}
+.product-hero-anim__animated-img {
+  width: 100%;
+  z-index: 1;
+}
+.product-hero-anim__items-img-holder {
+  margin-top: 116.26px;
+  text-align: center;
+  position: relative;
+}
+.product-hero-anim__items-img--b {
+  position: absolute;
+}
+.product-hero-anim__items-img--c {
+  position: absolute;
+}
